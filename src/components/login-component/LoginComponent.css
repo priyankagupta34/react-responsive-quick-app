@@ -1,0 +1,100 @@
+.flexWiHeCen {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.lc1 {
+    width: 40vw;
+    height: 45vh;
+    box-shadow: 0 0 13px pink;
+    border-radius: 3px;
+    min-width: 520px;
+    display: flex;
+
+}
+
+.imglog {
+    width: 20vw;
+    /* height: 45vh; */
+    border-radius: 3px 0px 0px 3px;
+    opacity: 0.8;
+    box-shadow: 0 0 13px pink;
+    min-width: 260px;
+}
+
+.loginpu {
+    width: 20vw;
+    /* height: 31vh; */
+    min-width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lg_in {
+    border-radius: 3px;
+    border: 1px solid #97528480;
+    outline: none;
+    padding: 12px;
+    margin-bottom: 10px;
+    margin: 0 0 10px 10px;
+    /* width: 8.5vw; */
+    min-width: 115px;
+}
+
+.flexWiHeCensmall {
+    display: none;
+}
+
+.mnhead {
+    margin-bottom: 1vh;
+}
+
+
+.hc8 {
+    display: none;
+}
+
+
+@media screen and (max-width: 800px) {
+    .hc8 {
+        /* width: 83vw; */
+        display: flex;
+        justify-content: center;
+        height: 70vh;
+        align-items: center;
+        background-color: white;
+
+    }
+
+
+    .hc8 .lg_in {
+        width: 40vw;
+        min-width: 200px;
+        margin-bottom: 1vh;
+        padding: 13px;
+        max-width: 219px;
+    }
+
+    .hc8 .btn2 {
+        width: 8vw;
+    }
+
+
+    .flexWiHeCen {
+        display: none;
+    }
+
+    .flexWiHeCensmall {
+        display: block;
+    }
+
+    .mnhead {
+        margin-bottom: 23px;
+        text-align: center;
+    }
+
+}

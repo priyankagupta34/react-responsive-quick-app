@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* transition: all 0.3s; */
+}
+
+.slideInFromLeft {
+  position: relative;
+  animation: slideInFromLeft 0.5s;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    left: -50vw;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+.slideOutFromLeft {
+  position: relative;
+  animation: slideOutFromLeft 0.5s;
+  /* transition: all 0.3s; */
+}
+
+@keyframes slideOutFromLeft {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -50vw;
+  }
+}
+
+.miniOut {
+  position: relative;
+  animation: miniOut 0.4s;
+}
+
+@keyframes miniOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.righted {
+  text-align: right;
+}
+
+.centered {
+  text-align: center;
+}
+
+::placeholder{
+  opacity: 0.8;
+  font-size: 0.8em;
+}
+
+.rotateeffect{
+  position: relative;
+  animation: rotateeffect 0.7s;
+  /* transform-origin: left center; */
+}
+
+@keyframes rotateeffect {
+  0%{
+    transform: rotate(-20deg);
+  }
+  100%{
+    transform: rotate(0);
+  }
+}
